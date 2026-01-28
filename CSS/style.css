@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    
+  
+
+}
+
+body {
+    background-color: #f0f2f5;
+}
+
+.all_box {
+    text-align: center;   /* يوسّط العناصر */
+    margin-top: 150px;    /* ينزل المحتوى */
+}
+
+
+.left,.right {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    padding: 10px
+}
+
+/* Left side */
+.left h1 {
+    color: #1877f2;
+    font-size: 70px;
+    margin-right: 80px;
+    padding: 10px;
+ 
+     
+    
+}
+
+.left p {
+    font-size: 23px;
+    width: 400px;
+    margin: 15px;
+    padding: 10px;
+}
+
+/* Right side */
+.login-box {
+  
+    background: white;
+    width: 360px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    
+    
+}
+
+.login-box input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.login-btn {
+    width: 100%;
+    background: #1877f2;
+    color: white;
+    border: transparent;
+    padding: 14px;
+    border-radius: 6px;
+    font-size: 18px;
+
+}
+
+
+.forgot {
+    display: block;
+    margin: 15px 0;
+    color: #1877f2;
+    font-size: 14px;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.create-btn {
+    background: #42b72a;
+    color: white;
+    border: transparent;
+    padding: 14px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.create-btn:hover {
+    background: #36a420;
+}
+.create-page {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
